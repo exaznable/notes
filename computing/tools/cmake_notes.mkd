@@ -1,0 +1,2 @@
+
+CMake can generate visual studio project files.

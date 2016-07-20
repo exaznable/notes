@@ -1,0 +1,13 @@
+
+GCC cross compiler vendors:
+- Linaro
+- Mainline / ubuntu arm-gcc-embedded
+- Mentor Graphics / Codesourcery
+- Yocto Project?
+- Openembedded?
+- Crosstool-NG?
+
+
+Checking target architecture: `gcc -dumpmachine`
+
+

@@ -1,0 +1,6 @@
+
+## Linux proxy server configuration
+- For CLI use environment variables: http_proxy, https_proxy, ftp_proxy
+- /etc/apt.d has a script to set which proxy server to use
+- Each browser may have its own proxy settings
+

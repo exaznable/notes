@@ -1,0 +1,25 @@
+# General sentiment
+[It's kinda insane](https://xkcd.com/1597/)
+
+## Migration
+https://git.wiki.kernel.org/index.php/Interfaces,_frontends,_and_tools#Subversion - See Reposurgeon?
+http://blogs.atlassian.com/2013/01/atlassian-svn-to-git-migration-technical-side/
+https://svn.apache.org/repos/asf/subversion/branches/1.2.x/www/subversion-linus.html - Don't even think of using SVN to record linux kernel sources
+http://stackoverflow.com/questions/3162949/manage-source-under-git-and-svn-simultanously-does-it-make-sense
+https://news.ycombinator.com/item?id=11991479 - Overview of Google's monolithic repo. See also this comment on Mercurial at Facebook - https://news.ycombinator.com/item?id=11991479 and more at https://news.ycombinator.com/item?id=10138946
+### Using as an SVN client.
+http://stackoverflow.com/questions/747075/how-to-git-svn-clone-the-last-n-revisions-from-a-subversion-repository
+http://blogs.atlassian.com/2014/05/handle-big-repositories-git/
+###Super big SVN Repo - What do?
+http://stackoverflow.com/questions/2029520/can-git-svn-be-used-on-large-branched-repositories
+http://programmers.stackexchange.com/questions/286124/what-to-do-about-large-svn-history-when-moving-to-git
+
+#Clients
+Has potential:
+- TortoiseGit - have git-svn, windows only
+- GitEye - by the folks who wrote svn, but doesn't seem to have git-svn support built in. Eclipse based. Multiplatform. Mandatory reg after 30d
+Hopeless:
+- SmartGit - need to pay for commercial use
+- SourceTree - Has gone downhill a lot after lead developer quits, super slow on windows. Mandatory reg to Atlassian.
+- Gitkraken - Very new. Mandatory reg. Electron javascript based, so super bloated.
+

@@ -1,0 +1,32 @@
+
+# Workflow
+
+Never use Mq - It's an old workaround and should not be used anymore.
+
+## HgSubversion workflow
+Using Mercurial as an Svn client - example is using tortoiseHG Workbench (which has HgSubversion support)
+
+### General
+
+SVN has no branch, so your history must be linear.
+This means you cannot do a merge of two commits like normal DVCS workflow.
+Instead, you have to rebase your commits onto the latest subversion head (making history linear), then commit them.
+Note you can still have other branches when you push - only the branch on top of the subversion head should get pushed.
+
+### Folding history:
+- Update to the head commit of your branch
+- `hg histedit` (no need to enter rev#, it will automatically display all commits in the branch up to a commit with another branch)
+- fold every commit except the top - change "pick" to "fold"
+- Clean up and merge comments
+
+### Making SVN compatible patches 
+`hg diff --svn -r[baserev]:[currentrev] > [patchname].patch`
+
+### Rebase before commit
+- `hg pull` to get latest subversion head
+- right click on the first commit in the branch (not the tip!), rebase.
+- tick the subversion option - this will automatically set the rebase target as subversion head
+- click rebase
+
+### Pushing only one branch
+`hg push -r <tipofbranch>`
