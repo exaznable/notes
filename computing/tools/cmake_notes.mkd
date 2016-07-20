@@ -1,2 +1,4 @@
 
 CMake can generate visual studio project files.
+
+Cmake internal architecture: http://aosabook.org/en/cmake.html

@@ -1,0 +1,12 @@
+
+C++ stuff
+https://www.reddit.com/r/learnprogramming/wiki/faq_cpp
+http://en.cppreference.com/w/
+https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list
+https://isocpp.org/get-started
+https://herbsutter.com/elements-of-modern-c-style/
+https://github.com/isocpp/CppCoreGuidelines
+http://www.stroustrup.com/JSF-AV-rules.pdf
+http://www.stroustrup.com/Software-for-infrastructure.pdf
+https://www.reddit.com/r/learnprogramming/wiki/faq_cpp
+

@@ -1,0 +1,5 @@
+
+http://linux.die.net/man/1/pahole https://lwn.net/Articles/335942/
+http://linux.die.net/man/1/objdump
+strace/dtrace
+perf

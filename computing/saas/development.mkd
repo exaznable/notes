@@ -1,0 +1,15 @@
+
+Free continuous integration
+https://travis-ci.org/ - linux, github only
+https://ci.appveyor.com/ - windows only
+https://codecov.io/
+
+Free static analysis
+https://scan.coverity.com/
+
+Kanban
+https://waffle.io/pricing
+Trello
+
+Miscellaneous
+shields.io

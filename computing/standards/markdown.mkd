@@ -1,0 +1,7 @@
+
+# Original markdown
+John Gruber's spec: https://daringfireball.net/projects/markdown/syntax
+
+# Some sort of consortium
+http://commonmark.org/
+http://commonmark.org/help/

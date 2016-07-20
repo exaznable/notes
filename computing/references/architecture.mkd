@@ -1,0 +1,6 @@
+
+REST
+http://db.cs.berkeley.edu/papers/hpts85-nothing.pdf
+https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation.pdf
+https://tools.ietf.org/html/rfc1034
+

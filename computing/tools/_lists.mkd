@@ -1,0 +1,8 @@
+
+Documentation generator
+http://www.sphinx-doc.org/en/stable/
+doxygen
+https://readthedocs.org/
+
+Website engine
+https://jekyllrb.com/docs/quickstart/
