@@ -2,3 +2,15 @@
 CMake can generate visual studio project files.
 
 Cmake internal architecture: http://aosabook.org/en/cmake.html
+
+Specifying out of tree build:
+https://stackoverflow.com/questions/11143062/getting-cmake-to-build-out-of-source-without-wrapping-scripts
+You can use the undocumented CMake options -H and -B to specify the source and binary directory upon invoking cmake:
+`cmake -H. -Bbuild -G "MSYS Makefiles"`
+This will look for the CMakeLists.txt in the current folder and create a build folder (if it does not yet exist) in it.
+
+https://www.gitbook.com/book/tuannguyen68/learning-cmake-a-beginner-s-guide/details
+https://cmake.org/cmake-tutorial/
+https://cmake.org/cmake/help/v3.0/manual/cmake-language.7.html#syntax
+https://cmake.org/cmake/help/v3.6/
+https://www.cs.swarthmore.edu/~adanner/tips/cmake.php

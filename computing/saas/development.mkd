@@ -6,6 +6,7 @@ https://codecov.io/
 
 Free static analysis
 https://scan.coverity.com/
+https://sonarqube.com/
 
 Kanban
 https://waffle.io/pricing
@@ -13,3 +14,9 @@ Trello
 
 Miscellaneous
 shields.io
+
+Embedded platform
+plaformio.org
+
+Some interesting links
+http://postscapes.com/2015-16/best-iot-software-and-tools/

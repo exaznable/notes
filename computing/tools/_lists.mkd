@@ -6,3 +6,5 @@ https://readthedocs.org/
 
 Website engine
 https://jekyllrb.com/docs/quickstart/
+
+quickcheck
